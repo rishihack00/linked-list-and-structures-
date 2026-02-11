@@ -63,4 +63,23 @@ int main ()
 struct node var1 ;
 var1.data = 10;
 var1.next = Null;
+}
+
+Types of linked list 
+
+1. Singly linked list 
+2. Doubly Linked list 
+3. Circular linked list 
+
+Singly linked list 
+--> Each node points to the next node
+--> Last node points to NULL
+--> Navigation is forward only 
+
+Double linked list 
+--> Navigation is forward aand backward both
+--> Each node has two links ( prev and next )
+
+Circular Linked list
+Last element is linked to the first element..
 
