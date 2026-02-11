@@ -44,3 +44,16 @@ Advantages  of linked list
 --> Does not required contingous memory 
 --> Better for frequent updates ..
 
+
+Basic terminology 
+Node : Each element in a linked list is called a node 
+A node contains :
+1. Data 
+2 . Link ( pointer to next node )
+
+Structure of a node :
+
+struct node{
+int data;
+struct node *next;
+};
