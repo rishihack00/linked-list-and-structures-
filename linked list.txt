@@ -83,3 +83,12 @@ Double linked list
 Circular Linked list
 Last element is linked to the first element..
 
+
+CREATING A SINGLY LINKED LIST
+
+Step 1 - Define Node structure.
+Step 2 - Create Head pointer 
+Step 3 - Create a new node dynamically 
+Step 4 - Assign data to the node
+Step 5 - Connect Node to the list 
+
