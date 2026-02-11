@@ -1,0 +1,46 @@
+
+Self referential structure 
+
+A structure that contains a pointer to its own type. A structure that can refer too another variable of its own .. this concept is the foundation of dynamic data structures such as :
+
+Linked list , Stack , Queues ,Tree , Graphs
+
+Syntax 
+ struct item {
+int a;
+struct item * ptr;
+};
+
+int main ( ){
+struct item i1;
+struct item i2;
+i1.ptr = &i2;
+};
+
+PRIMITIVE DATA STRUCTURES
+
+Primitive Data structures are the basic fundamental data types provided by the C languages that:
+
+--> Store single values
+--> Occupy fixed memory 
+--> Are directly supported by the compiler 
+
+They are the building blocks for all other ( non - primitive ) data structures .
+
+e.g : int , char , float , double , void , ( special purpose )
+
+NON PRIMITIVE DATA STRUCTURES 
+
+Non-primitive data structures store multiple values and represent Complex data relationships...
+
+
+LINKED LIST 
+
+Advantages  of linked list 
+
+--> Dynamic size
+--> Efficient insertion and Deletion  - No shift required 
+--> No memory wastage 
+--> Does not required contingous memory 
+--> Better for frequent updates ..
+
