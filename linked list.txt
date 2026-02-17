@@ -131,7 +131,7 @@ while(temp != NULL)
 	temp = temp->next;
 }
 Step 5 - Assign data to the node
-Step 6 - Connect Node to the list 
+Step 6 - Connect Node to the list ...
 
 
 
