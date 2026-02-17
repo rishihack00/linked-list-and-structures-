@@ -87,8 +87,51 @@ Last element is linked to the first element..
 CREATING A SINGLY LINKED LIST
 
 Step 1 - Define Node structure.
+struct node {
+	int data;
+	struct node* next;
+};
+
 Step 2 - Create Head pointer 
+
+
+struct node* head = NULL;
+struct node* first = NULL;
+struct node* second = NULL;
+struct node* third = NULL;
+struct node* fourth = NULL;
+
+
 Step 3 - Create a new node dynamically 
-Step 4 - Assign data to the node
-Step 5 - Connect Node to the list 
+
+int main()
+{
+	first = (struct node*)malloc(sizeof(struct node));
+	second = (struct node*)malloc(sizeof(struct node));
+	third = (struct node*)malloc(sizeof(struct node));
+	fourth = (struct node*)malloc(sizeof(struct node));
+	
+
+	first->data = 10;
+	first->next = second;
+	second->data = 34;
+	second->next = third;
+	third->data = 58;
+	third->next = fourth;
+	fourth->data = 78;
+	fourth->next = NULL;
+	head = first;
+
+Step 4 - Print linked list
+
+struct node* temp = head;
+while(temp != NULL)
+{
+	printf("%d ", temp->data);
+	temp = temp->next;
+}
+Step 5 - Assign data to the node
+Step 6 - Connect Node to the list 
+
+
 
