@@ -131,7 +131,24 @@ while(temp != NULL)
 	temp = temp->next;
 }
 Step 5 - Assign data to the node
-Step 6 - Connect Node to the list ...$$$$$
+Step 6 - Connect Node to the list ..
+
+Traversing a singly linked list
+
+void print_data(struct node *head){
+if ( head == NULL ){
+printf("Linked list is empty");
+return;
+}
+
+struct node *temp = head;
+while(temp != NULL){
+printf("%d ",temp->data));
+temp = temp -> next;
+}
+}
+
+print_data(head);
 
 
 
