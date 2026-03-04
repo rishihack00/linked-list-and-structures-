@@ -1,3 +1,14 @@
+DATA STRUCTURES 
+
+Node - it consist of data and reference
+
+Data - it can contain any data type..
+
+Reference - it can have the address of the next data..
+
+Head contains the first node address , if HEAD is NULL then the linked list is empty..
+
+
 
 Self referential structure 
 
