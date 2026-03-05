@@ -2,7 +2,7 @@ DATA STRUCTURES
 
 Node - it consist of data and reference
 
-Data - it can contain any data type..
+Data - it can contain any data type....
 
 Reference - it can have the address of the next data..
 
